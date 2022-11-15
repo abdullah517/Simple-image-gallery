@@ -61,7 +61,7 @@ class _HomePageState extends State<HomePage> {
             child: GridView.count(
                 crossAxisCount: 4,
                 children: List.generate(16, (index) {
-                  if (text == "Internet Images" || text == "Asset Images") {
+                  if (text == "Internet Images") {
                     return GestureDetector(
                       child: Center(
                         child: FadeInImage.assetNetwork(
@@ -78,6 +78,27 @@ class _HomePageState extends State<HomePage> {
                             MaterialPageRoute(
                               builder: (context) =>
                                   fullimg(path: imglist[ind][index]),
+                            ));
+                      },
+                    );
+                  } else if (text == "Asset Images") {
+                    return GestureDetector(
+                      child: Center(
+                        child: Image.asset(
+                          imglist[ind][index],
+                          height: 160,
+                          width: 250,
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                      onTap: () {
+                        Navigator.push(
+                            context,
+                            MaterialPageRoute(
+                              builder: (context) => fullimg(
+                                path: imglist[ind][index],
+                                isasset: true,
+                              ),
                             ));
                       },
                     );
