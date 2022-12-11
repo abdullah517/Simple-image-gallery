@@ -49,6 +49,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black54,
       appBar: AppBar(
         title: (Text("Image Gallery")),
       ),
@@ -60,7 +61,7 @@ class _HomePageState extends State<HomePage> {
             height: 500,
             child: GridView.count(
                 crossAxisCount: 4,
-                children: List.generate(16, (index) {
+                children: List.generate(24, (index) {
                   if (text == "Internet Images") {
                     return GestureDetector(
                       child: Center(

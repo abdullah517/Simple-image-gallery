@@ -1,5 +1,3 @@
-import 'package:flutter/material.dart';
-
 class listimg {
   static List getlist() {
     List imglist = [
@@ -20,6 +18,14 @@ class listimg {
         "https://source.unsplash.com/fhju1PNTW6Q",
         "https://source.unsplash.com/spZED8Q-UCU",
         "https://source.unsplash.com/58LP6H8klVw",
+        "https://source.unsplash.com/wZLsZ9DRLSI",
+        "https://source.unsplash.com/83W4wBmSvVE",
+        "https://source.unsplash.com/4xzIo1d5esI",
+        "https://source.unsplash.com/X5WkEmffcVY",
+        "https://source.unsplash.com/NKqx9yvty1U",
+        "https://source.unsplash.com/P0nWpyphwks",
+        "https://source.unsplash.com/83W4wBmSvVE",
+        "https://source.unsplash.com/BI7y_fNx7gM",
       ],
       [
         "https://source.unsplash.com/hGV2TfOh0ns",
@@ -38,6 +44,14 @@ class listimg {
         "https://source.unsplash.com/Y3LGWCsrgmg",
         "https://source.unsplash.com/ZRzsUkk9C8M",
         "https://source.unsplash.com/xj8qrWvuOEs",
+        "https://source.unsplash.com/BbSBf5uv50A",
+        "https://source.unsplash.com/Ti7LQ0r-zy4",
+        "https://source.unsplash.com/ICTKcvnXx_8",
+        "https://source.unsplash.com/_6cz9KUvnxM",
+        "https://source.unsplash.com/XGC_1eH_ZGI",
+        "https://source.unsplash.com/BJx8whKXCgc",
+        "https://source.unsplash.com/vll0Bb04XTc",
+        "https://source.unsplash.com/qnt9iigV444",
       ],
       [
         'assets/0.jpeg',
@@ -56,6 +70,14 @@ class listimg {
         'assets/13.jpeg',
         'assets/14.jpeg',
         'assets/15.jpeg',
+        'assets/16.jpg',
+        'assets/17.jpg',
+        'assets/18.jpg',
+        'assets/19.jpeg',
+        'assets/20.jpeg',
+        'assets/21.jpeg',
+        'assets/22.jpg',
+        'assets/23.jpg',
       ],
     ];
     return imglist;
